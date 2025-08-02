@@ -428,6 +428,15 @@ body.dark-mode .btn:hover {
 .certification-list li {
   margin-bottom: 10px;
 }
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5); /* translucent dark overlay */
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
 /* Responsive Styles for Mobile */
 @media (max-width: 768px) {
   body {
