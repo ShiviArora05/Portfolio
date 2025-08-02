@@ -440,10 +440,9 @@ body.dark-mode .btn:hover {
 /* Responsive Styles for Mobile */
 @media (max-width: 768px) {
   body {
-    background-size: contain;         /* Prevent zoom-in */
+    background-size: auto 100%;         /* Prevent zoom-in */
     background-position: top center;  /* Align it nicely */
     background-attachment: scroll;    /* Avoid glitchy scroll behavior */
-    background-repeat: no-repeat;
   }
 
   /* Navbar */
