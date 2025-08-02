@@ -427,6 +427,107 @@ body.dark-mode .btn:hover {
 .certification-list li {
   margin-bottom: 10px;
 }
+/* Responsive Styles for Mobile */
+@media (max-width: 768px) {
+
+  /* Navbar */
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    margin-top: 1rem;
+  }
+
+  .nav-links a {
+    padding: 0.5rem 0;
+    display: block;
+    width: 100%;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  #toggleMode {
+    align-self: flex-end;
+    margin-top: 0.5rem;
+  }
+
+  /* Hero Section */
+  .hero-name {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .core-skills {
+    font-size: 1rem;
+  }
+
+  /* Section containers */
+  .section {
+    padding: 2rem 1rem;
+    margin: 1rem;
+    width: 100%;
+  }
+
+  /* Resume & Contact Buttons */
+  .resume-button a {
+    font-size: 1rem;
+    padding: 10px 16px;
+  }
+
+  .contact-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .contact-links a {
+    width: 80%;
+    justify-content: center;
+    font-size: 0.95rem;
+    padding: 10px;
+  }
+
+  .contact-links img {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* Projects */
+  .projects-grid {
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+  }
+
+  .project {
+    width: 90%;
+    padding: 1rem;
+  }
+
+  /* Fonts */
+  h1, h2, .section-title {
+    font-size: 1.5rem;
+  }
+
+  .section-title {
+    margin-bottom: 0.8rem;
+  }
+
+  /* Scroll button */
+  #scrollToTop {
+    bottom: 20px;
+    right: 10px;
+    font-size: 1.2rem;
+    padding: 8px;
+  }
+
+}
 
 
 
